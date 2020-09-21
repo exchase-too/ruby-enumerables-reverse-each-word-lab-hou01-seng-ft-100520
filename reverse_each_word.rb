@@ -8,7 +8,9 @@ reverse_array = []
 new_Array.each {|v| reverse_array << v.reverse
   puts reverse_array
 }
-
+new_Array.collect {|v| reverse_array << v.reverse
+  puts reverse_array
+}
 reverse_string = reverse_array.join(' ')
 end
 
