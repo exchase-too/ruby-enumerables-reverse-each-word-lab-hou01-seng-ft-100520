@@ -10,3 +10,5 @@ binding.pry
 
 reverse_string = reverse_array.join(' ')
 end
+
+reverse_each_word("This is a sentence.")
